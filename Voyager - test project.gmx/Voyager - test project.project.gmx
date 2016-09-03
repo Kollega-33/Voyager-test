@@ -18,6 +18,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_ramp</object>
     <object>objects\obj_girder</object>
+    <object>objects\obj_form_test</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_level</room>
