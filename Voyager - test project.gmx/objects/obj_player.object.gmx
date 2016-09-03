@@ -156,7 +156,7 @@ phy_position_y += vspd;
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="49">
+    <event eventtype="5" enumb="50">
       <action>
         <libid>1</libid>
         <id>201</id>
