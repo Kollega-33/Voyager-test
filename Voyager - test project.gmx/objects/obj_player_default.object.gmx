@@ -41,6 +41,7 @@ grav = 0.2;
         </arguments>
       </action>
     </event>
+<<<<<<< HEAD:Voyager - test project.gmx/objects/obj_player_default.object.gmx
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -200,6 +201,8 @@ phy_position_y += vspd;
         <isnot>0</isnot>
       </action>
     </event>
+=======
+>>>>>>> origin/master:Voyager - test project.gmx/objects/obj_form_test.object.gmx
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
