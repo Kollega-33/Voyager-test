@@ -6,8 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_form_test</sprite>
+    <sprite>sprites\spr_player_default</sprite>
+    <sprite>sprites\spr_player_leaping</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_ramp</sprite>
     <sprite>sprites\spr_girder</sprite>
@@ -15,14 +15,14 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
+    <object>objects\obj_player_default</object>
+    <object>objects\obj_player_leaping</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_ramp</object>
     <object>objects\obj_girder</object>
-    <object>objects\obj_form_test</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_level</room>
+    <room>rooms\room_obstacle_course</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
