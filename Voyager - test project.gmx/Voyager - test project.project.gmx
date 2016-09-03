@@ -21,6 +21,10 @@
     <object>objects\obj_girder</object>
     <object>objects\obj_form_test</object>
     <object>objects\object_form_3</object>
+    <object>objects\object_form_4</object>
+    <object>objects\object_form_5</object>
+    <object>objects\object_form_6</object>
+    <object>objects\object_form_7</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_level</room>
