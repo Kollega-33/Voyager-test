@@ -6,28 +6,28 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_form_test</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_ramp</sprite>
-    <sprite>sprites\spr_girder</sprite>
+    <sprite>sprites\sprite_form_default</sprite>
+    <sprite>sprites\sprite_form_test</sprite>
+    <sprite>sprites\sprite_wall</sprite>
+    <sprite>sprites\sprite_ramp</sprite>
+    <sprite>sprites\sprite_girder</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_wall</object>
-    <object>objects\obj_player</object>
+    <object>objects\object_form_default</object>
     <object>objects\obj_ramp</object>
     <object>objects\obj_girder</object>
-    <object>objects\object_form_2</object>
-    <object>objects\object_form_3</object>
-    <object>objects\object_form_4</object>
+    <object>objects\object_form_leaping</object>
+    <object>objects\object_form_swimming</object>
+    <object>objects\object_form_climbing</object>
     <object>objects\object_form_5</object>
     <object>objects\object_form_6</object>
     <object>objects\object_form_7</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_level</room>
+    <room>rooms\room_obstacle_course</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -133,7 +133,7 @@ phy_position_y += vspd;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_wall">
+    <event eventtype="4" ename="object_form_default1">
       <action>
         <libid>1</libid>
         <id>603</id>
