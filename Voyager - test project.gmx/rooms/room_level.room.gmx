@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_player" xview="0" yview="0" wview="960" hview="540" xport="0" yport="0" wport="960" hport="540" hborder="200" vborder="100" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="object_form_default" xview="0" yview="0" wview="960" hview="540" xport="0" yport="0" wport="960" hport="540" hborder="200" vborder="100" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -589,7 +589,7 @@
     <instance objName="obj_wall" x="1536" y="1408" name="inst_3FA047D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1568" y="1408" name="inst_D2DFA9DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1632" y="1472" name="inst_07FBEFB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="1344" y="672" name="inst_F6D84913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_form_default" x="1344" y="672" name="inst_F6D84913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="" x="32" y="896" w="16" h="16" xo="0" yo="0" id="10000002" name="inst_7C16C90D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
