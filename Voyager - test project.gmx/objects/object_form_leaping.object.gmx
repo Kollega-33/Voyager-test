@@ -44,7 +44,7 @@ grav = 0.8;
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>1</PhysicsObjectShape>
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -54,7 +54,9 @@ grav = 0.8;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>-1</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>256,256</point>
-    <point>256,256</point>
+    <point>80,16</point>
+    <point>416,16</point>
+    <point>416,496</point>
+    <point>80,496</point>
   </PhysicsShapePoints>
 </object>
