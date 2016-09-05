@@ -102,7 +102,7 @@
     <instance objName="obj_ramp" x="2176" y="3328" name="inst_534AB38C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ramp" x="896" y="3328" name="inst_01633A3F" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1152" y="3328" name="inst_6C095A01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_form_default" x="3072" y="3712" name="inst_29CE8393" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_form_default" x="3584" y="3840" name="inst_29CE8393" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="4096" y="2816" name="inst_254D0341" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="4096" y="2560" name="inst_45C24D20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_girder" x="3840" y="2816" name="inst_022BDEE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
