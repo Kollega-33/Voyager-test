@@ -72,9 +72,7 @@ hspd = move * movespeed;
 if ( vspd &lt; 10 ){
     vspd += grav;
 }
-if ( place_meeting(phy_position_x,phy_position_y+1, obj_wall)||
-    place_meeting(phy_position_x,phy_position_y+1, obj_ramp) ||
-    place_meeting(phy_position_x,phy_position_y+1, obj_girder)){
+if  place_meeting(phy_position_x,phy_position_y+1, obj_wall){
     vspd = space_key * -jumpspeed;
 }
 if space_key &amp;&amp; (   place_meeting(phy_position_x+5,phy_position_y, obj_girder) || 
