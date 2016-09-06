@@ -52,15 +52,9 @@ grav = 0.2;
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
-  <PhysicsObjectKinematic>-1</PhysicsObjectKinematic>
+  <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>16,6</point>
-    <point>28,12</point>
-    <point>28,18</point>
-    <point>26,20</point>
-    <point>16,22</point>
-    <point>6,20</point>
-    <point>4,18</point>
-    <point>4,12</point>
+    <point>16,16</point>
+    <point>16,12</point>
   </PhysicsShapePoints>
 </object>
