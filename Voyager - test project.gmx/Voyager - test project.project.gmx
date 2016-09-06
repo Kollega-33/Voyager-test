@@ -6,10 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite_form_default</sprite>
-    <sprite>sprites\sprite_form_swimming</sprite>
-    <sprite>sprites\sprite_form_climbing</sprite>
-    <sprite>sprites\sprite_form_leaping</sprite>
+    <sprites name="Big (test) sprites">
+      <sprite>sprites\sprite_form_default</sprite>
+      <sprite>sprites\sprite_form_swimming</sprite>
+      <sprite>sprites\sprite_form_climbing</sprite>
+      <sprite>sprites\sprite_form_leaping</sprite>
+    </sprites>
+    <sprites name="Small (test) sprites">
+      <sprite>sprites\sprite_form_normal_test</sprite>
+      <sprite>sprites\sprite_form_swimming_test</sprite>
+      <sprite>sprites\sprite_form_climbing_test</sprite>
+      <sprite>sprites\sprite_form_leaping_test</sprite>
+    </sprites>
     <sprite>sprites\sprite_wall</sprite>
     <sprite>sprites\sprite_ramp</sprite>
     <sprite>sprites\sprite_girder</sprite>
