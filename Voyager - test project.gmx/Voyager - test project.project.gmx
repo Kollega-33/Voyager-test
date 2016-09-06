@@ -38,6 +38,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_obstacle_course</room>
+    <room>rooms\room_test_1</room>
+    <room>rooms\room_test_2</room>
+    <room>rooms\room_test_3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
