@@ -73,8 +73,13 @@ hspd = move * movespeed;
 if ( vspd &lt; 10 ){
     vspd += grav;
 }
-if place_meeting(phy_position_x,phy_position_y+1, obj_wall){
+if  place_meeting(phy_position_x,phy_position_y+1, obj_wall) || (
+    place_meeting(phy_position_x+1,phy_position_y+1, obj_ramp) ||
+    place_meeting(phy_position_x-1,phy_position_y+1, obj_wall) ){
     vspd = space_key * -jumpspeed;
+}
+if place_meeting(phy_position_x,phy_position_y-1, obj_wall){
+    vspd = 1;
 }
 
 phy_position_x += hspd;
@@ -340,17 +345,23 @@ phy_position_y += vspd;
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>2</PhysicsObjectShape>
   <PhysicsObjectDensity>0.5</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
   <PhysicsObjectLinearDamping>0.100000001490116</PhysicsObjectLinearDamping>
   <PhysicsObjectAngularDamping>0.100000001490116</PhysicsObjectAngularDamping>
-  <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
+  <PhysicsObjectFriction>999999</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>16,16</point>
-    <point>16,16</point>
+    <point>32,10</point>
+    <point>32,22</point>
+    <point>24,32</point>
+    <point>8,32</point>
+    <point>0,22</point>
+    <point>0,10</point>
+    <point>8,0</point>
+    <point>24,0</point>
   </PhysicsShapePoints>
 </object>

@@ -33,8 +33,8 @@ vspd = 0;
 hspd = 0;
 spd = 5;
 movespeed = 4;
-jumpspeed = 8.5;
-grav = 0.2;
+jumpspeed = 5;
+grav = 0.02;
 
 </string>
           </argument>
